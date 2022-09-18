@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background: rgb(79, 243, 255, 0.5); */
+  background: rgb(255, 95, 109, 0.3);
+}
+
+header a {
+  display: block;
+  width: 8em;
+  height: 1.5em;
+  margin: 1em;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background: url(../img/resonate.png) no-repeat;
+  background-size: contain;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+}
+
+.searchBar {
+  align-self: center;
+  justify-self: center;
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-gap: 3em;
+  margin-top: 3em;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  background: rgb(151, 63, 251);
+  background: linear-gradient(
+    153deg,
+    rgba(151, 63, 251, 0.66) 0%,
+    rgba(70, 184, 252, 0.66) 37%
+  );
+  align-content: center;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+
+.card-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: bolder;
+  color: #000;
+}
+
+.card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  color: rgb(46, 46, 46);
+}
+
+@media screen and (max-width: 1400px) {
+  .listContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .listContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.list-group-item {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+.list-group-item-name {
+  display: grid;
+  width: 5em;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+  border-right: 1px solid rgba(70, 70, 70, 0.326);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
