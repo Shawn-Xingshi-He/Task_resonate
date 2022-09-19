@@ -1,7 +1,7 @@
 import React from "react";
 
 function test() {
-  return <div>nihao</div>;
+  return <div>test</div>;
 }
 
 export default test;
