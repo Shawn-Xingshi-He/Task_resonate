@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Task-resonate/static/css/main.a5f78ae1.css",
+    "main.js": "/Task-resonate/static/js/main.01bbd2fe.js",
+    "static/js/787.b340581d.chunk.js": "/Task-resonate/static/js/787.b340581d.chunk.js",
+    "index.html": "/Task-resonate/index.html",
+    "main.a5f78ae1.css.map": "/Task-resonate/static/css/main.a5f78ae1.css.map",
+    "main.01bbd2fe.js.map": "/Task-resonate/static/js/main.01bbd2fe.js.map",
+    "787.b340581d.chunk.js.map": "/Task-resonate/static/js/787.b340581d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5f78ae1.css",
+    "static/js/main.01bbd2fe.js"
+  ]
+}
